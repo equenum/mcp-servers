@@ -14,7 +14,7 @@ builder.Services
     .AddMcpServer()
     .WithStdioServerTransport()
     // adds all types marked with McpServerToolTypeAttribute. 
-    // we can also add individual tools via .WithTools<Type>()
+    // alternative approach would be adding individual types via .WithTools<Type>()
     .WithToolsFromAssembly(); 
 
 await builder.Build().RunAsync();

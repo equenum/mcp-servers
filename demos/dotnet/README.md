@@ -4,13 +4,13 @@
 
 ### Run DemoMcpServer locally (stdio) with [MCP Inspector](https://github.com/modelcontextprotocol/inspector)
 
-Start the inspector:
+#### Start the inspector:
 
 ```shell
 npx @modelcontextprotocol/inspector
 ```
 
-Connect:
+#### Connect:
 
 - Transport type: STDIO
 - Command: dotnet
